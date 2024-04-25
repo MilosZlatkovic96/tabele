@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/img10.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-family: Poppins;
+}
+
+.nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 25px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  margin: 70px 0;
+}
+
+.header span {
+  background-color: white;
+  color: black;
+  padding: 0 10px;
+}
+
+.lead {
+  width: 800px;
+  margin: 300px 0 0 700px;
+}
+
+.lead p {
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.lead span {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+table {
+  background-color: rgb(15, 15, 15);
+  font-size: 24px;
+  width: 1200px;
+  margin: 300px auto;
+  margin-bottom: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table tr td {
+  padding: 20px;
+}
+
+table tr:nth-child(odd) {
+  background-color: rgb(25, 25, 25);
+}
+
+table tr:first-child {
+  background-color: rgb(75, 75, 75);
+}
